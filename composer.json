@@ -1,0 +1,14 @@
+{
+    "name": "auxilo/dice-sdk",
+    "description": "Official DICE SDK for PHP",
+    "type": "library",
+    "require": {
+        "php": ">=7.4",
+        "guzzlehttp/guzzle": "^7.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dice\\": "src/"
+        }
+    }
+}
